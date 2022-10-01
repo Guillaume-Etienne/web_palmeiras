@@ -6,7 +6,7 @@
   z-index: 6;
   top: 0;
   left: -250px;
-  background-color: $colorbackground;
+  background-color: $colorbackground;  
   padding-top: 60px;
   transition: left 0.5s ease;
   & ul{
@@ -49,6 +49,6 @@
   display: block;
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: $colorgreytext1;
   margin: 6px 0;
 }

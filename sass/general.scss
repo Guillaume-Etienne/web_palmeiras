@@ -17,7 +17,7 @@ a{
 }
 body
 {
-    margin: 180px 0 0 0;    
+    margin: 0;    
     padding: 0;
     min-width: 380px;
     max-width: 1400px;
@@ -36,17 +36,19 @@ body
 header{    
     position:sticky;
     background-color: $colorbackground;
+    opacity: 0.8;    
+    box-shadow: -1px 31px 32px 24px $colorbackground;
     top:0px;
     padding: 0 10px 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     & img{
-        margin: -10px 0 -10px 0;
+        margin: 0 0 -10px 0;
         width: 70px;
     }
 }
-h1, h2{
+h1, h2, h3{
     text-align: center;
 }
 #lang {
@@ -84,9 +86,55 @@ footer{
 }
 
 // ------------------------------- Accueil
-img {
-    width: 100%;
+.mainpage{
+    height: 700px;
+    & h3 {
+        font-family: 'Kalam', cursive;
+        font-style: italic;
+        font-size: 3em;
+    }
+    & h2 {
+        font-size: 3em;
+    }
+    & p {
+
+    }
+    & button {
+        display:block;
+        margin: 90px auto 90px auto;  
+        background: #F1F4F7;
+        background-image: -webkit-linear-gradient(top, #F1F4F7, #A5A9AF);               
+        border-radius: 20px;
+        color: #DD380D;
+        font-family: Arial;
+        font-size: 1.5em;
+        font-weight: 100;
+        padding: 10px;        
+        text-align: center;
+        transition: 0.4s;
+        &:hover {
+            color: #F1F4F7;
+            background: #E91B55;
+            border: solid #FFFFFF 1px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+    }
 }
+#intro{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/restaurant/main.jpeg) no-repeat fixed 50% 50%;
+    // linear grad pour assombrir
+    background-size: cover;    
+    height: 850px;
+    margin: -90px 0 200px 0;
+    padding: 250px 0 0 0;
+}
+
+// img {
+//     width: 100%;
+// }
 #headsection {
     display: flex;
     flex-direction: column;

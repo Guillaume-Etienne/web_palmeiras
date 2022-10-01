@@ -1,4 +1,5 @@
-// Buger menu    /  Automatised Language Selector
+// AOS (animation des divs)   / Buger menu    /
+AOS.init(); //oui c'est tout, tout se fait direct dans le html
 
 // burger :
 
