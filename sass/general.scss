@@ -2,7 +2,7 @@
 @import "./menu_burger";
 @import "./animations";
 
-// general, puis pages, prix, galerie, infos
+// general, puis Accueil, prix, galerie, infos
 
 *{
     box-sizing: border-box;
@@ -17,7 +17,7 @@ a{
 }
 body
 {
-    margin: 0;    
+    margin: 180px 0 0 0;    
     padding: 0;
     min-width: 380px;
     max-width: 1400px;
@@ -32,9 +32,6 @@ body
     & a {
         font-weight: bold;
     }
-.vimeo{
-    margin-top: 20px;
-}
 }
 header{    
     position:sticky;
@@ -67,64 +64,6 @@ main{
         margin: 0 5px;
     }
 }
-video{    
-    max-width: 100%;
-    min-height: 250px;
-    object-fit: cover;
-    margin: 0 0 10px 0;
-    padding: 0 0 0 0;
-    box-shadow: $shadowmobile;    
-}
-figure{        
-    margin: 0;
-    padding: 0;    
-    & img{        
-        width: 100%;
-    }
-}
-.flexi{    
-    margin: 20px 0 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    & a{
-        box-shadow: $shadowmobile;
-        margin: 10px 0 10px 0;
-        padding: 0 0 20px 0;
-        max-width: 800px;        
-    }
-}
-#feednpart {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
-
-#partnairesListe {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 5px;
-    & img {
-        margin: 5px;;
-        width: 100px;
-    }
-}
-#whoweare {
-    & figure{
-        margin: 20px 0 18px 0;
-        padding-bottom: 10px;
-        max-width: 600px;        
-        box-shadow: $shadowmobile;
-        & img{
-            width: 100%;
-        }
-        & a{
-            box-shadow: none;
-        }
-    }
-}
 footer{
     margin-top: 0;
     padding: 10px;
@@ -143,7 +82,8 @@ footer{
         }
     }    
 }
-// pages
+
+// ------------------------------- Accueil
 img {
     width: 100%;
 }
