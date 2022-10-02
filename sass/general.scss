@@ -128,14 +128,25 @@ footer{
         color: $colortextblack;
     }
     & h3{
-        color: #e91b1b;
+        color: $colorred;
+    }
+    & img{
+        display: block;
+        margin: 20px auto 80px auto;
+        width: 90%;
+        border-radius: 10px;
+    }
+}
+.mainpagefull {
+    & h3{
+        color: $colorred;
     }
     & img{
         display: block;
         margin: 20px auto;
-        width: 90%;
+        max-height: 500px;
         border-radius: 10px;
-    }
+    }    
 }
 #intro{
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/main.jpeg) no-repeat fixed 50% 50%;

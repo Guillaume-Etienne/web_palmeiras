@@ -14,8 +14,7 @@ var resizeAll = function () {
 
 gallery.querySelectorAll('img').forEach(function (item) {    
     item.classList.add('byebye');
-    if (item.complete) {
-        
+    if (item.complete) {        
         console.log(item.src);
     }
     else {
@@ -30,11 +29,10 @@ gallery.querySelectorAll('img').forEach(function (item) {
     }
 });
 
-
 window.addEventListener('resize', resizeAll);
 gallery.querySelectorAll('.gallery-item').forEach(function (item) {
     item.addEventListener('click', function () {
-        console.log("click !");      
+        console.log("click ! : "  + item.classList);      
         item.classList.toggle('full');        
     });
 });

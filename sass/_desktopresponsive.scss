@@ -1,4 +1,4 @@
-// general / pages / pages prix
+// general / pages / pages prix de l'ancien modèle - à la fin Palm / Welcome
 @media screen and (min-width: 1280px) {    
     header{
         position:relative;
@@ -171,6 +171,32 @@
     // vidéos
     #logoairtricks {
         width: 100%;
+    }
+    // -------------- Palm Welcome
+    .mainpagewhite{
+        display: flex;
+        align-items:center;
+        justify-content:space-around;
+        & img{
+            width: 70%;
+        }
+    }
+    .prezflex1{
+        margin-left: 50px;
+    }
+    #resto{
+        padding-top: 90px;
+    }
+    #gallery{
+        display: flex;
+        flex-wrap: wrap;
+        & img{
+            max-width: 300px;
+            margin: 10px;
+        }
+    }
+    #bugfix{
+        width: 900px;        
     }
 }
 
